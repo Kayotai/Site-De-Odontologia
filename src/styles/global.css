@@ -8,10 +8,11 @@
 
 html {
     color-scheme: light;
-    background-color: white !important;
-}
-
-body {
+    -webkit-text-fill-color: #000000 !important;
+  }
+  
+  body {
+    background-color: #ffffff !important;
     min-height: 100vh;
 }
 

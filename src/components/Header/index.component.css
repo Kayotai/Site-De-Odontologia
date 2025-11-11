@@ -3,8 +3,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--text-color-links);
+    border-bottom: 2px solid var(--text-color-links);
     padding: 10px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: var(--bg01);
 }
 
 .logo {
@@ -24,12 +28,14 @@ nav {
 }
 
 .listLinks > li > a {
+    display: inline-block;
     font-size: 1.2rem;
     color: white;
     font-weight: 700;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .listLinks > li > a:hover {
     color: var(--text-color-links);
+    transform: scale(1.08);
 }
