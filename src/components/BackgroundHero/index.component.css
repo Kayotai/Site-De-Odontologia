@@ -2,6 +2,6 @@
 .backgroundHero {
     background: url("../../assets/images//bg_01.png") !important; 
     background-size: cover;
-    min-height: 700px;
+    min-height: 800px;
     width: 100%;
 }
