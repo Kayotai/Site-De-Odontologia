@@ -1,0 +1,35 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--text-color-links);
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 2rem;
+    padding: 10px;
+    height: 64px;
+    width: 160px;
+}
+
+nav {
+    margin-right: 2rem;
+}
+
+.listLinks {
+    display: flex;
+    gap: 30px;
+}
+
+.listLinks > li > a {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+
+.listLinks > li > a:hover {
+    color: var(--text-color-links);
+}
