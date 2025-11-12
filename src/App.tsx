@@ -1,17 +1,19 @@
-import Header from "./components/Header"
-import BgHero from "./components/BackgroundHero"
-
+import Header from "./components/Header";
+import ContentHero from "./components/ContentHero";
+import BgHero from "./components/BackgroundHero";
 
 function App() {
 
   return (
     <>
-      <BgHero>
-        <Header />
-      </BgHero>
-      
+      <Header />
+        <main>
+          <BgHero>
+            <ContentHero />
+          </BgHero>
+        </main>
     </>
   )
 }
 
-export default App
+export default App;

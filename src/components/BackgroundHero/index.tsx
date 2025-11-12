@@ -5,5 +5,8 @@ import './index.component.css'
 
 export default function BgHero({ children } : { children: React.ReactNode })
 {
-    return ( <div className="backgroundHero"> {children} </div> )
+    return ( 
+        <div className="backgroundHero"> 
+            {children} 
+        </div> )
 }

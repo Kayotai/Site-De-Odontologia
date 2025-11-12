@@ -1,0 +1,73 @@
+
+.containerHero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    min-height: 60vh;
+}
+
+.ctaHero {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ctaHero > h1 {
+    font-size: 3.3em;
+    font-weight: 900;
+    background-image: linear-gradient( 45deg, var(--color-accent), var(--color-accent-light), var(--color-accent-dark) );
+  
+   -webkit-background-clip: text;
+   background-clip: text; 
+
+   -webkit-text-fill-color: transparent;
+   text-fill-color: transparent;
+}
+
+.ctaHero > p{
+    text-wrap: wrap;
+    font-size: 1.5em;
+    width: 23em;
+    color: var(--muted-text);
+}
+
+.ctaHero > a {
+    font-size: 1.5em;
+    background-color: var(--color-accent-dark);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    width: 10em;
+    display: inline-block;
+    transition: all .3s ease;
+    font-weight: 600;
+}
+
+.ctaHero > a:hover  {
+    transform: translateY(-2px) scale(1.08);
+}
+
+.imageHero > img {
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid var(--color-accent-light);
+}
+
+.containerWave {
+    width: 100%;
+    height: 250px;
+    overflow: hidden; 
+}
+
+#onda1 {
+    fill: var(--color-accent-light); 
+    opacity: .6;   
+}
+
+#onda2 {
+    fill: var(--color-accent-light);
+    opacity: .4;  
+}
+
+

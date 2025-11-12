@@ -2,17 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 ul { list-style: none; }
 a { text-decoration: none; }
+strong { color: var(--color-accent); }
 
 html {
     color-scheme: light;
-  }
+}
   
-  body {
-    background-color: #ffffff !important;
+body {
+    background-color: var(--bg);
     min-height: 100vh;
 }
 

@@ -1,4 +1,25 @@
 :root {
-    --text-color-links: #509d87;
-    --bg01: #6ed3c2;
+  /* ===== CORES BASE ===== */
+  --color-accent: #509d87;
+  --color-accent-light: #7bd4c6;
+  --color-accent-dark: #377e6b;
+
+  /* ===== MODO CLARO ===== */
+  --bg: #ffffff;
+  --text-color: #043c2b;
+  --text-muted: #055341;
+
+  /* ===== MODO ESCURO ===== */
+  --bg-dark: #0e1312;
+  --text-color-dark: #e5f6f2;
+  --text-muted-dark: #b7e0d4;
+}
+
+/* Troca automática com base no sistema */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--bg-dark);
+    --text-color: var(--text-color-dark);
+    --text-muted: var(--text-muted-dark);
+  }
 }
