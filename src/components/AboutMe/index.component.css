@@ -1,0 +1,37 @@
+
+#drBruna {
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    /* background-color: blue; */
+}
+
+.about {
+    width: 55em;
+    /* background-color: red; */
+}
+
+.about > h2 {
+    font-size: 3em;
+    margin: .5em 0;
+} 
+
+.about > p {
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.3em;
+}
+
+.assinatura {
+    margin-top: 2em;
+    border-bottom: 1px solid var(--color-accent);
+}
+
+.about > p > em {
+    font-style: italic;
+}
+

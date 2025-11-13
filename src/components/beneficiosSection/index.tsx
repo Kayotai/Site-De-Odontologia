@@ -11,7 +11,7 @@ export interface ItemBenefit {
 export default function Benefit()
 {
     return(
-        <section className="benefitSession">
+        <section className="benefitSession" id="benefit">
             <h2>Benefícios de vir a nossa clínica!</h2>
             <ul className="listBenefit">
                 { benefit.map

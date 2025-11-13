@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import ContentHero from "./components/ContentHero";
 import Benefit from "./components/beneficiosSection";
+import AboutMe from "./components/AboutMe";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <main>
           <ContentHero />
           <Benefit />
+          <AboutMe />
         </main> 
     </>
   )

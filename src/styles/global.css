@@ -12,7 +12,7 @@ em { font-style: normal; }
 p { font-style: var(--font-corpo); }
 
 html {
-    color-scheme: light;
+    scroll-behavior: smooth;
 }
   
 body {

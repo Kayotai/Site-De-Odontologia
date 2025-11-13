@@ -5,6 +5,7 @@ import type { ItemHeader } from "../Header";
 
 export const links: ItemHeader[] = [
   { id: "home", nameContentLink: "Home", href: "#home", aria: "Home" },
+  { id: "about", nameContentLink: "Dr. Bruna", href: "#drBruna", aria: "Sobre a Doutora Bruna" },
   { id: "objetion", nameContentLink: "Serve para mim?", href: "#objetion", aria: "Serve para mim?" },
   { id: "benefit", nameContentLink: "Benefícios", href: "#benefit", aria: "Benefícios" },
   { id: "contact", nameContentLink: "Contatos", href: "#contact", aria: "Contato" }

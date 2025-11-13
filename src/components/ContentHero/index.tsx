@@ -1,5 +1,5 @@
 import './index.component.css';
-import circle1 from '../../assets/images/circle01.png';
+import circle3 from '../../assets/images/circle03.png';
 
 
 
@@ -18,7 +18,7 @@ export default function contentHero()
                         <a href="#">Quero saber mais!</a>
                     </div>
                     <div className="imageHero">
-                        <img src={ circle1 } alt="Foto de Sorriso 1" />
+                        <img src={ circle3 } alt="Foto de Sorriso 1" />
                     </div>
                 </div>
             </div> 
