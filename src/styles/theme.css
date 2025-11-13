@@ -1,4 +1,10 @@
+
 :root {
+
+  /* ===== FONTES ===== */
+  --font-title: "Playfair Display", Georgia, serif;
+  --font-corpo: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   /* ===== CORES BASE ===== */
   --color-accent: #509d87;
   --color-accent-light: #7bd4c6;

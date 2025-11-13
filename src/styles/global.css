@@ -8,6 +8,8 @@
 ul { list-style: none; }
 a { text-decoration: none; }
 strong { color: var(--color-accent); }
+em { font-style: normal; }
+p { font-style: var(--font-corpo); }
 
 html {
     color-scheme: light;

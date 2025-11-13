@@ -1,7 +1,13 @@
 import './index.component.css'
 import logo from '../../assets/images/logo.png'
-
 import { links } from '../Listas/'
+
+export interface ItemHeader {
+  id: string;
+  nameContentLink: string;
+  href: string;
+  aria: string;
+}
 
 export default function Header()
 {
@@ -12,7 +18,7 @@ export default function Header()
                 <ul className="listLinks">
                    { links.map(item => 
                         <li key={ item.id }>
-                            <a href={item.href} aria-label= {item.arialabel}> { item.nameContentLink } </a>
+                            <a href={item.href} aria-label= {item.aria}> { item.nameContentLink } </a>
                         </li>
                     )}
                 </ul>

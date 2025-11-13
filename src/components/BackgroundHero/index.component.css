@@ -1,7 +1,0 @@
-
-.backgroundHero {
-    background: var(--bg); 
-    background-size: cover;
-    min-height: 800px;
-    width: 100%;
-}

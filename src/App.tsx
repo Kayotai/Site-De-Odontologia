@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import ContentHero from "./components/ContentHero";
-import BgHero from "./components/BackgroundHero";
+import Benefit from "./components/beneficiosSection";
 
 function App() {
 
@@ -8,10 +8,9 @@ function App() {
     <>
       <Header />
         <main>
-          <BgHero>
-            <ContentHero />
-          </BgHero>
-        </main>
+          <ContentHero />
+          <Benefit />
+        </main> 
     </>
   )
 }

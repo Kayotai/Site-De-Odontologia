@@ -1,0 +1,56 @@
+.benefitSession {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 140vh;
+}
+
+.benefitSession > h2 {
+    font-size: 2.4em;
+    font-family: var(--font-title);
+    font-weight: 900;
+    margin-bottom: .8em;
+    background-image: linear-gradient( 45deg, var(--color-accent), var(--color-accent-light), var(--color-accent-dark) );
+  
+   -webkit-background-clip: text;
+   background-clip: text; 
+
+   -webkit-text-fill-color: transparent;
+   text-fill-color: transparent;
+}
+
+.listBenefit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 3.5em;
+    max-width: 68em;
+    height: 40em;
+    /* background-color: red; */
+}
+
+.listBenefit > li {
+    background-color: var(--bg);
+    max-width: 250px;
+    height: 290px;
+    text-align: center;
+}
+
+.listBenefit > li > img {
+    margin-bottom: 10px;
+}
+
+.listBenefit > li > h3 > em, .listBenefit > li > h3 > span {
+    color: var(--color-accent-dark);
+}
+
+.listBenefit > li > h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.listBenefit > li > p {
+    font-size: 1.2em;
+}
