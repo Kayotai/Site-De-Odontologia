@@ -13,7 +13,7 @@ export default function contentHero()
                         <h1>Clínica Monguilhotte</h1>
                         <p>
                             Seu <strong>sorriso perfeito</strong> através de um <strong>tratamento discreto</strong> e 
-                            dinovador, alinhe seus dentes com conforto, praticidade e liberdade.
+                            inovador, alinhe seus dentes com conforto, praticidade e liberdade.
                         </p>
                         <a href="#">Quero saber mais!</a>
                     </div>

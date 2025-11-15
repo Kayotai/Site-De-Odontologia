@@ -9,7 +9,8 @@ ul { list-style: none; }
 a { text-decoration: none; }
 strong { color: var(--color-accent); }
 em { font-style: normal; }
-p { font-style: var(--font-corpo); }
+h2, h1 { font-family: var(--font-title); }
+p { font-family: var(--font-corpo); }
 
 html {
     scroll-behavior: smooth;

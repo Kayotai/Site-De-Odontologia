@@ -1,7 +1,8 @@
 import type { ItemBenefit } from "../beneficiosSection";
 import type { ItemHeader } from "../Header";
+import type { ListSocialLinks } from "../Contact";
 
-
+import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 
 export const links: ItemHeader[] = [
   { id: "home", nameContentLink: "Home", href: "#home", aria: "Home" },
@@ -10,7 +11,6 @@ export const links: ItemHeader[] = [
   { id: "benefit", nameContentLink: "Benefícios", href: "#benefit", aria: "Benefícios" },
   { id: "contact", nameContentLink: "Contatos", href: "#contact", aria: "Contato" }
 ];
-
 
 export const benefit: ItemBenefit[] = [
    {
@@ -50,3 +50,9 @@ export const benefit: ItemBenefit[] = [
      text: "Com a ajuda do software, voce pode ter diferentes simulações de resultado antes mesmo de iniciar o tratamento Invisalign.",
    }
 ];
+
+export const linksSocial: ListSocialLinks[] = [
+   { id: "instagram", iconLink: FaInstagram, href: "#", rel: "noopener noreferrer", ariaLabel: "Veja meu instagram!"},
+   { id: "facebook", iconLink: FaFacebook, href: "#", rel: "noopener noreferrer", ariaLabel: "Veja meu facebook!"},
+   { id: "tiktok", iconLink: FaTiktok, href: "#", rel: "noopener noreferrer", ariaLabel: "Veja meu Tiktok!" }
+]
