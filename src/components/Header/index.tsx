@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import './index.component.css'
 import logo from '../../assets/images/logo.png'
 import { links } from '../Listas/'
