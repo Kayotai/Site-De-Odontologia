@@ -7,7 +7,7 @@ import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 export const links: ItemHeader[] = [
   { id: "home", nameContentLink: "Home", href: "#home", aria: "Home" },
   { id: "about", nameContentLink: "Dr. Bruna", href: "#drBruna", aria: "Sobre a Doutora Bruna" },
-  { id: "objetion", nameContentLink: "Serve para mim?", href: "#objetion", aria: "Serve para mim?" },
+  { id: "depoiment", nameContentLink: "Depoimentos", href: "#depoiment", aria: "Depoimentos" },
   { id: "benefit", nameContentLink: "Benefícios", href: "#benefit", aria: "Benefícios" },
   { id: "contact", nameContentLink: "Contatos", href: "#contact", aria: "Contato" }
 ];

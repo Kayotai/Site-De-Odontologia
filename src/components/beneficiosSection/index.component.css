@@ -11,6 +11,7 @@
     font-family: var(--font-title);
     font-weight: 900;
     margin-bottom: .8em;
+    text-align: center;
     background-image: linear-gradient( 45deg, var(--color-accent), var(--color-accent-light), var(--color-accent-dark) );
   
    -webkit-background-clip: text;
@@ -27,7 +28,7 @@
     align-items: stretch;
     gap: 3.5em;
     max-width: 68em;
-    height: 40em;
+    min-height: 40em;
     /* background-color: red; */
 }
 
@@ -53,4 +54,37 @@
 
 .listBenefit > li > p {
     font-size: 1.2em;
+}
+
+@media screen and (max-width: 890px) {
+    .benefitSession > h2 {
+        margin: 2.4em 0;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .benefitSession > h2 {
+        font-size: 2em;
+    }
+    .listBenefit > li {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .benefitSession > h2 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .benefitSession > h2 {
+        font-size: 1.5em;
+    }
+
+    .listBenefit > li {
+        max-width: 230px;
+    }
 }

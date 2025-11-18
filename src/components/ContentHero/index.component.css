@@ -71,3 +71,81 @@
 }
 
 
+@media screen and (max-width: 890px) {
+    .containerHero {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 2em 0;
+    }
+
+    .ctaHero {
+        margin-top: 4em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .ctaHero > a {
+        width: 12em;
+        padding: .8em;
+    }
+
+    .containerWave {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .ctaHero > h1 {
+        font-size: 2.7em;
+    }
+
+    .ctaHero > p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 465px) {
+     .ctaHero > h1 {
+        font-size: 2.2em;
+    }
+
+    .ctaHero > p {
+        font-size: 1.1em;
+        max-width: 15em;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .ctaHero > a {
+        width: 12em;
+        padding: .9em;
+        font-size: 1em;
+    }
+
+    .imageHero > img {
+        height: 200px;
+    }
+
+    .containerWave {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .ctaHero > h1 {
+        font-size: 1.8em;
+    }
+    .ctaHero > p {
+        font-size: 1.1em;
+        max-width: 11em;
+    }
+    .containerWave {
+        height: 90px;
+    }
+
+    .imageHero > img {
+        height: 160px;
+    }
+}

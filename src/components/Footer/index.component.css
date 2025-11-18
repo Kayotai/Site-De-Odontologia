@@ -1,0 +1,30 @@
+
+footer {
+    width: 100%;
+    background-color: var(--color-accent-dark);
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.containerFooter > a {
+    font-size: 1.4em;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+}
+
+footer > p {
+    text-align: center;
+    padding: 1em;
+}
+
+@media screen and (max-width: 345px) {
+    .containerFooter > img {
+        max-width: 120px;
+    }
+}
+

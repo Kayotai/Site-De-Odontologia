@@ -20,7 +20,7 @@ header {
     width: 160px;
 }
 
-nav {
+.nav {
     margin-right: 2rem;
 }
 
@@ -40,4 +40,31 @@ nav {
 .listLinks > li > a:hover {
     color: var(--color-accent);
     transform: scale(1.08) translateY(-2px);
+}
+
+
+.menuBurger {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--color-accent);
+    transition: all 1s ease;
+}
+
+
+@media screen and (max-width: 850px) {
+    .listLinks {
+        display: none;
+    }
+
+    .menuBurger {
+        display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .logo {
+        width: 120px;
+    }
 }
