@@ -10,8 +10,8 @@ a { text-decoration: none; }
 strong { color: var(--color-accent); }
 em { font-style: normal; }
 h2, h1 { font-family: var(--font-title); }
-h2 { color: var(--font-title); }
-h3 { color: var(--font-title); }
+h2 { font-family: var(--font-title); color: var(--text-color)}
+h3 { font-family: var(--font-title); color: var(--text-color)}
 p { color: var(--text-color); }
 
 
