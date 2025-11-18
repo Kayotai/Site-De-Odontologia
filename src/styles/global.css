@@ -10,7 +10,7 @@ a { text-decoration: none; }
 strong { color: var(--color-accent); }
 em { font-style: normal; }
 h2, h1 { font-family: var(--font-title); }
-/* p { font-family: var(--font-corpo); } */
+p { color: var(--text-color); }
 
 
 html {
