@@ -50,6 +50,7 @@
 .listBenefit > li > h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
+    color: var(--font-title);
 }
 
 .listBenefit > li > p {
@@ -58,7 +59,7 @@
 
 @media screen and (max-width: 890px) {
     .benefitSession > h2 {
-        margin: 2.4em 0;
+        margin: 2.4em;
     }
 
 
